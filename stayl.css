@@ -1,0 +1,61 @@
+/* Universal styles */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.btm {
+    background-color: aquamarine;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+
+/* Header styles */
+header ul {
+    display: flex;
+    gap: 30px;
+}
+
+header .nav {
+    display: flex;
+    gap: 30px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #9e9aa8;
+}
+
+/* Intro stayl */
+.intro {
+    margin: 40px 0;
+}
+
+.intro h1 {
+    font-size: 62px;
+}
+
+.intro p {
+    color: #9e9aa8;
+    line-height: 26px;
+}
+
+.intro .container {
+    display: flex;
+}
